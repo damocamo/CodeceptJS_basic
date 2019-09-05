@@ -31,10 +31,17 @@ npx codeceptjs run --steps
 These are the most common actions that will be within tests. 
 
 amOnPage - to open a webpage (accepts relative or absolute url)
+
 click - to locate a button or link and click on it
+
 fillField - to enter a text inside a field
+
 selectOption, checkOption - to interact with a form
+
 wait* to wait for some parts of page to be fully rendered (important for testing SPA)
+
 grab* to get values from page sources
+
 see, dontSee - to check for a text on a page
+
 seeElement, dontSeeElement - to check for elements on a pag
