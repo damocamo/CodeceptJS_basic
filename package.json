@@ -18,6 +18,12 @@
   "homepage": "https://github.com/damocamo/CodeceptJS_basic#readme",
   "devDependencies": {
     "codeceptjs": "^2.3.0",
+    "cz-conventional-changelog": "^3.0.2",
     "puppeteer": "^1.19.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
